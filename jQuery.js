@@ -66,7 +66,7 @@ $(document).ready(function () {
       </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary date-${date_number}" id="save-changes" data-dismiss="modal">Save changes</button>
+                <button type="button" class="btn btn-primary edit_save-${date_number}" id="save-changes" data-dismiss="modal">Save changes</button>
               </div>
             </div>
           </div>
@@ -82,6 +82,11 @@ $(document).ready(function () {
     $("#date").val('');
 
   });
+
+
+
+
+
 
 
   // for delete the task----> 
@@ -151,6 +156,8 @@ $(document).ready(function () {
     });
   });
   
+
+
 
 
   // for editing ------>  
